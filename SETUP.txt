@@ -1,1 +1,11 @@
-Upload README.md and the entire assets/ folder to the root of your GitHub profile repository (GouriVPawar/GouriVPawar). Keep the folder name exactly 'assets'. The README uses relative paths such as ./assets/header.svg. Project panels are currently informational images, not repository links, because exact public repository URLs were not provided. You can later wrap each project image in an <a href='YOUR_REPOSITORY_URL'> tag.
+INSTALLATION
+1. Download and extract this ZIP.
+2. Open the profile repository: GouriVPawar/GouriVPawar.
+3. Upload README.md and the complete assets/ folder to the repository root.
+4. Commit the changes. Keep the folder named exactly assets.
+
+NOTES
+- The project panels are original SVG artwork with project summaries.
+- They are intentionally not linked to repository URLs because exact public project URLs were not supplied.
+- You can make a card clickable later by wrapping its <img> element in an <a href="YOUR_REPOSITORY_URL"> element.
+- GitHub stats are served by github-readme-stats; if its public instance is rate-limited, cards may temporarily fail to load.

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="72" viewBox="0 0 1200 72">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#090D16"/><stop offset=".55" stop-color="#101827"/><stop offset="1" stop-color="#151D2B"/></linearGradient>
+ <linearGradient id="lime" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#C8FF4D"/><stop offset="1" stop-color="#75E6B2"/></linearGradient>
+ <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#B69CFF"/><stop offset="1" stop-color="#6D8CFF"/></linearGradient>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#273449" stroke-width="1" opacity=".42"/></pattern>
+ <filter id="blur"><feGaussianBlur stdDeviation="24"/></filter>
+</defs>
+<rect width="1200" height="72" rx="12" fill="#111A29" stroke="#2B394D"/>
+<text x="26" y="45" fill="#C8FF4D" font-family="monospace" font-size="18">04</text>
+<path d="M78 16V56" stroke="#53637A"/>
+<text x="102" y="43" fill="#F4F6FB" font-family="Arial,sans-serif" font-size="23" font-weight="700" letter-spacing="2">ACTIVITY</text>
+<text x="1160" y="42" fill="#9BA9BD" font-family="monospace" font-size="12" text-anchor="end" letter-spacing="2">SIGNAL & MOMENTUM</text>
+</svg>
