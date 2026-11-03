@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="206" viewBox="0 0 1200 206">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0B1220"/><stop offset="1" stop-color="#111D2D"/>
+  </linearGradient>
+  <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#38D6C5"/><stop offset="1" stop-color="#79A9FF"/>
+  </linearGradient>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+    <path d="M36 0H0V36" fill="none" stroke="#26364B" stroke-width="1" opacity=".45"/>
+  </pattern>
+  <filter id="soft"><feGaussianBlur stdDeviation="22"/></filter>
+</defs>
+
+<rect width="1200" height="206" rx="18" fill="url(#bg)" stroke="#26364B"/>
+<text x="38" y="42" fill="#79A9FF" font-family="monospace" font-size="13" letter-spacing="2">DESIGN PRINCIPLE</text>
+<text x="38" y="88" fill="#F3F7FC" font-family="Arial,sans-serif" font-size="27" font-weight="700">Build intelligence that earns its place in the workflow.</text>
+<text x="38" y="126" fill="#B8C7D9" font-family="Arial,sans-serif" font-size="17">I work across GenAI, retrieval systems, ML and backend engineering —</text>
+<text x="38" y="153" fill="#B8C7D9" font-family="Arial,sans-serif" font-size="17">connecting models, data and interfaces into practical, measurable tools.</text>
+<text x="38" y="185" fill="#38D6C5" font-family="monospace" font-size="12">FOCUS: RELIABILITY  /  USEFULNESS  /  ITERATION</text>
+<circle cx="1080" cy="102" r="52" fill="none" stroke="#294158" stroke-width="1"/>
+<circle cx="1080" cy="102" r="36" fill="none" stroke="#38D6C5" stroke-width="2" stroke-dasharray="58 18"/>
+<circle cx="1080" cy="102" r="8" fill="#79A9FF"/>
+
+</svg>

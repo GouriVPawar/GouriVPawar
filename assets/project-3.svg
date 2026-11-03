@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="172" viewBox="0 0 580 172">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0B1220"/><stop offset="1" stop-color="#111D2D"/>
+  </linearGradient>
+  <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#38D6C5"/><stop offset="1" stop-color="#79A9FF"/>
+  </linearGradient>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+    <path d="M36 0H0V36" fill="none" stroke="#26364B" stroke-width="1" opacity=".45"/>
+  </pattern>
+  <filter id="soft"><feGaussianBlur stdDeviation="22"/></filter>
+</defs>
+
+<rect width="580" height="172" rx="16" fill="#0E1827" stroke="#2A3B50"/>
+<rect x="18" y="18" width="42" height="26" rx="7" fill="#15323A"/>
+<text x="39" y="36" fill="#55DDCE" font-family="monospace" font-size="12" text-anchor="middle">03</text>
+<text x="78" y="38" fill="#F1F6FC" font-family="Arial,sans-serif" font-size="20" font-weight="700">V2X TRAFFIC CONTROL</text>
+<text x="24" y="83" fill="#B8C7D9" font-family="Arial,sans-serif" font-size="14">International research on AI-driven control for unconventional</text>
+<text x="24" y="105" fill="#B8C7D9" font-family="Arial,sans-serif" font-size="14"> intersections</text>
+<rect x="24" y="128" width="118" height="25" rx="12" fill="#172C3A" stroke="#31586A"/>
+<text x="83" y="145" fill="#79A9FF" font-family="monospace" font-size="11" text-anchor="middle">AI / RESEARCH</text>
+<path d="M520 24h34v34" fill="none" stroke="#38D6C5" stroke-width="2" opacity=".8"/>
+
+</svg>

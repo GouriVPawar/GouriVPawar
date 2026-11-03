@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="92" viewBox="0 0 1200 92">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0B1220"/><stop offset="1" stop-color="#111D2D"/>
+  </linearGradient>
+  <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#38D6C5"/><stop offset="1" stop-color="#79A9FF"/>
+  </linearGradient>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+    <path d="M36 0H0V36" fill="none" stroke="#26364B" stroke-width="1" opacity=".45"/>
+  </pattern>
+  <filter id="soft"><feGaussianBlur stdDeviation="22"/></filter>
+</defs>
+
+<rect width="1200" height="92" rx="16" fill="#0D1725" stroke="#26364B"/>
+<text x="600" y="39" text-anchor="middle" fill="#EAF1F8" font-family="Arial,sans-serif" font-size="19" font-weight="700">Make it useful. Make it reliable. Keep learning.</text>
+<text x="600" y="66" text-anchor="middle" fill="#38D6C5" font-family="monospace" font-size="12" letter-spacing="3">END OF TRANSMISSION / GOURI PAWAR</text>
+
+</svg>

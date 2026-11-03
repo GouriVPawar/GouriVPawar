@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0B1220"/><stop offset="1" stop-color="#111D2D"/>
+  </linearGradient>
+  <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#38D6C5"/><stop offset="1" stop-color="#79A9FF"/>
+  </linearGradient>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+    <path d="M36 0H0V36" fill="none" stroke="#26364B" stroke-width="1" opacity=".45"/>
+  </pattern>
+  <filter id="soft"><feGaussianBlur stdDeviation="22"/></filter>
+</defs>
+
+<rect width="1200" height="220" rx="22" fill="url(#bg)"/>
+<rect width="1200" height="220" rx="22" fill="url(#grid)"/>
+<circle cx="1030" cy="30" r="150" fill="#38D6C5" opacity=".10" filter="url(#soft)"/>
+<path d="M790 0V220M820 0V220" stroke="#294158" opacity=".65"/>
+<path d="M865 176L950 91L1000 126L1110 26" fill="none" stroke="url(#glow)" stroke-width="3" opacity=".8"/>
+<circle cx="865" cy="176" r="5" fill="#38D6C5"/><circle cx="1110" cy="26" r="5" fill="#79A9FF"/>
+<text x="64" y="48" fill="#38D6C5" font-family="monospace" font-size="14" letter-spacing="4">ENGINEERING / INTELLIGENCE / SYSTEMS</text>
+<text x="60" y="117" fill="#F3F7FC" font-family="Arial,sans-serif" font-size="54" font-weight="700">GOURI PAWAR</text>
+<text x="64" y="158" fill="#B8C7D9" font-family="Arial,sans-serif" font-size="22">AI Engineer building useful intelligence into real products.</text>
+<text x="64" y="193" fill="#79A9FF" font-family="monospace" font-size="13" letter-spacing="2">GENAI  ·  RAG  ·  PYTHON  ·  BACKEND</text>
+<rect x="1060" y="163" width="86" height="28" rx="14" fill="#132B35" stroke="#38D6C5"/>
+<text x="1103" y="182" fill="#65E3D4" font-family="monospace" font-size="12" text-anchor="middle">ONLINE</text>
+
+</svg>
