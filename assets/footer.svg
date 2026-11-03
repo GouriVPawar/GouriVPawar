@@ -1,12 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="96" viewBox="0 0 1200 96">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="84" viewBox="0 0 1000 84" role="img" aria-labelledby="t d">
+<title id="t">Stay curious. Ship thoughtfully. Gouri Pawar.</title>
+<desc id="d">Stay curious. Ship thoughtfully. Gouri Pawar.</desc>
 <defs>
- <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#090D16"/><stop offset=".55" stop-color="#101827"/><stop offset="1" stop-color="#151D2B"/></linearGradient>
- <linearGradient id="lime" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#C8FF4D"/><stop offset="1" stop-color="#75E6B2"/></linearGradient>
- <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#B69CFF"/><stop offset="1" stop-color="#6D8CFF"/></linearGradient>
- <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#273449" stroke-width="1" opacity=".42"/></pattern>
- <filter id="blur"><feGaussianBlur stdDeviation="24"/></filter>
+  <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#2DD4BF"/><stop offset="1" stop-color="#8B9CFF"/>
+  </linearGradient>
+  <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#2A3A52"/><stop offset="1" stop-color="#2A3A52" stop-opacity="0"/>
+  </linearGradient>
 </defs>
-<rect width="1200" height="96" rx="16" fill="#C8FF4D"/>
-<text x="600" y="42" fill="#101827" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="700">Stay curious. Ship thoughtfully.</text>
-<text x="600" y="70" fill="#26364B" text-anchor="middle" font-family="monospace" font-size="11" letter-spacing="3">GOURI PAWAR  /  END OF FILE</text>
+<style>
+text{font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;}
+.m{font-family:'SF Mono','JetBrains Mono',Consolas,Menlo,'Courier New',monospace;}
+
+</style>
+<rect x="0" y="22" width="1000" height="1.5" fill="url(#fade)" opacity="0.8"/>
+<text x="500.0" y="56" font-size="16" text-anchor="middle" fill="#95A3B8">Stay curious. Ship thoughtfully.</text>
+<text class="m" x="500.0" y="76" font-size="11" letter-spacing="3" text-anchor="middle" fill="#5F6D82">GOURI PAWAR</text>
 </svg>
