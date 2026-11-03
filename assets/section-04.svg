@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="56" viewBox="0 0 1000 56" role="img" aria-labelledby="t d">
-<title id="t">04 — Toolkit</title>
-<desc id="d">04 — Toolkit</desc>
+<title id="t">04 — Selected Work</title>
+<desc id="d">04 — Selected Work</desc>
 <defs>
   <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
     <stop offset="0" stop-color="#2DD4BF"/><stop offset="1" stop-color="#8B9CFF"/>
@@ -30,14 +30,14 @@ text{font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;}
 @media (prefers-reduced-motion:reduce){*{animation:none!important}}
 
 .scan{animation:scan 5s ease-in-out infinite alternate}
-@keyframes scan{from{transform:translateX(0)}to{transform:translateX(573px)}}
+@keyframes scan{from{transform:translateX(0)}to{transform:translateX(486px)}}
 
 </style>
 <rect x="0.5" y="0.5" width="999" height="55" rx="14" fill="#0E1520" stroke="#1F2B3D"/>
 <text class="m" x="24" y="34" font-size="14" font-weight="700" fill="#F5B84B">04</text>
 <rect x="50" y="20" width="1.5" height="16" fill="#2A3A52"/>
-<text x="62" y="36" font-size="20" font-weight="700" fill="#E8EEF8">Toolkit</text>
-<rect x="169" y="28" width="643" height="1.5" rx="0.75" fill="#2A3A52"/>
-<rect class="scan" x="169" y="27.5" width="70" height="2.5" rx="1.25" fill="url(#acc)"/>
-<text class="m" x="978" y="33" font-size="12" text-anchor="end" fill="#5F6D82">// what I build with</text>
+<text x="62" y="36" font-size="20" font-weight="700" fill="#E8EEF8">Selected Work</text>
+<rect x="241" y="28" width="556" height="1.5" rx="0.75" fill="#2A3A52"/>
+<rect class="scan" x="241" y="27.5" width="70" height="2.5" rx="1.25" fill="url(#acc)"/>
+<text class="m" x="978" y="33" font-size="12" text-anchor="end" fill="#5F6D82">// things I have built</text>
 </svg>

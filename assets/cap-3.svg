@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="322" height="242" viewBox="0 0 322 242" role="img" aria-labelledby="t d">
-<title id="t">Agent Orchestration — Multi-step, multi-agent workflows with explicit state, routing and tool access.</title>
-<desc id="d">Agent Orchestration — Multi-step, multi-agent workflows with explicit state, routing and tool access.</desc>
+<title id="t">Agent Orchestration — Agent workflow orchestration with LangGraph and MCP: explicit state, routing and tool access.</title>
+<desc id="d">Agent Orchestration — Agent workflow orchestration with LangGraph and MCP: explicit state, routing and tool access.</desc>
 <defs>
   <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
     <stop offset="0" stop-color="#2DD4BF"/><stop offset="1" stop-color="#8B9CFF"/>
@@ -44,9 +44,9 @@ text{font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;}
 <text class="m" x="302" y="38" font-size="12" letter-spacing="2" text-anchor="end" fill="#5F6D82">03</text>
 <text class="m" x="302" y="58" font-size="11" letter-spacing="1.5" text-anchor="end" fill="#2DD4BF">COORDINATION</text>
 <text x="20" y="112" font-size="19" font-weight="700" fill="#E8EEF8">Agent Orchestration</text>
-<text x="20" y="136" font-size="13.5" fill="#95A3B8">Multi-step, multi-agent workflows</text>
-<text x="20" y="154" font-size="13.5" fill="#95A3B8">with explicit state, routing and</text>
-<text x="20" y="172" font-size="13.5" fill="#95A3B8">tool access.</text>
+<text x="20" y="136" font-size="13.5" fill="#95A3B8">Agent workflow orchestration with</text>
+<text x="20" y="154" font-size="13.5" fill="#95A3B8">LangGraph and MCP: explicit state,</text>
+<text x="20" y="172" font-size="13.5" fill="#95A3B8">routing and tool access.</text>
 <rect x="20" y="196" width="85" height="26" rx="13" fill="#131C2A" stroke="#2A3A52"/>
 <text x="62" y="213" font-size="12.5" text-anchor="middle" fill="#C5D0E0">LangGraph</text>
 <rect x="113" y="196" width="43" height="26" rx="13" fill="#131C2A" stroke="#2A3A52"/>

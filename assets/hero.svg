@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="460" viewBox="0 0 1000 460" role="img" aria-labelledby="t d">
 <title id="t">Gouri Pawar — AI Engineer</title>
-<desc id="d">Gouri Pawar, AI Engineer. From retrieval pipelines to multi-agent workflows: AI that holds up in production. Animated diagram of an orchestrator coordinating retriever, tool-use, vision and evaluator agents.</desc>
+<desc id="d">Gouri Pawar. AI Engineer, Forward Deployed and Full-Stack. I take GenAI and LLM systems from problem to production: RAG, agents and the full stack. Animated diagram of an orchestrator coordinating retriever, tool-use, vision and evaluator agents.</desc>
 <defs>
   <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
     <stop offset="0" stop-color="#2DD4BF"/><stop offset="1" stop-color="#8B9CFF"/>
@@ -97,12 +97,12 @@ text{font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;}
 <circle class="tw" cx="985" cy="28" r="1.6" fill="#2DD4BF" style="animation-delay:-1.3s"/>
 <circle class="tw" cx="968" cy="440" r="1.6" fill="#2DD4BF" style="animation-delay:-2.2s"/>
 <circle class="blink" cx="46" cy="68" r="4" fill="#2DD4BF"/>
-<text class="m" x="62" y="73" font-size="12.5" font-weight="700" letter-spacing="2" fill="#2DD4BF">AI ENGINEER<tspan dx="12" fill="#5F6D82" font-weight="400">/</tspan><tspan dx="12" fill="#95A3B8" font-weight="400">GENAI · AGENTS · RESEARCH</tspan></text>
+<text class="m" x="62" y="73" font-size="12" font-weight="700" letter-spacing="1.8" fill="#2DD4BF">AI ENGINEER<tspan dx="10" fill="#5F6D82" font-weight="400">/</tspan><tspan dx="10" fill="#95A3B8" font-weight="400">FORWARD DEPLOYED</tspan><tspan dx="10" fill="#5F6D82" font-weight="400">/</tspan><tspan dx="10" fill="#95A3B8" font-weight="400">FULL-STACK</tspan></text>
 <text x="40" y="148" font-size="64" font-weight="800" letter-spacing="-1.5" fill="#E8EEF8">Gouri Pawar</text>
 <rect x="42" y="168" width="72" height="4" rx="2" fill="url(#acc)"/>
-<text x="40" y="214" font-size="22" fill="#95A3B8">From retrieval pipelines to</text>
-<text x="40" y="244" font-size="22" fill="#95A3B8">multi-agent workflows: AI that</text>
-<text x="40" y="274" font-size="22" fill="#95A3B8">holds up in production.</text>
+<text x="40" y="214" font-size="22" fill="#95A3B8">I take GenAI and LLM systems</text>
+<text x="40" y="244" font-size="22" fill="#95A3B8">from problem to production:</text>
+<text x="40" y="274" font-size="22" fill="#95A3B8">RAG, agents and the full stack.</text>
 <rect x="40" y="318" width="420" height="1.5" fill="url(#fade)"/>
 <text class="m" x="40" y="352" font-size="12.5" letter-spacing="1.5" fill="#2DD4BF">RAG · AGENTS · ORCHESTRATION</text>
 <text class="m" x="40" y="376" font-size="12.5" letter-spacing="1.5" fill="#95A3B8">DEEP LEARNING · RESEARCH · FULL-STACK</text>

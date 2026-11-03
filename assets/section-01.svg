@@ -30,14 +30,14 @@ text{font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;}
 @media (prefers-reduced-motion:reduce){*{animation:none!important}}
 
 .scan{animation:scan 5s ease-in-out infinite alternate}
-@keyframes scan{from{transform:translateX(0)}to{transform:translateX(619px)}}
+@keyframes scan{from{transform:translateX(0)}to{transform:translateX(626px)}}
 
 </style>
 <rect x="0.5" y="0.5" width="999" height="55" rx="14" fill="#0E1520" stroke="#1F2B3D"/>
 <text class="m" x="24" y="34" font-size="14" font-weight="700" fill="#F5B84B">01</text>
 <rect x="50" y="20" width="1.5" height="16" fill="#2A3A52"/>
 <text x="62" y="36" font-size="20" font-weight="700" fill="#E8EEF8">Overview</text>
-<rect x="181" y="28" width="689" height="1.5" rx="0.75" fill="#2A3A52"/>
+<rect x="181" y="28" width="696" height="1.5" rx="0.75" fill="#2A3A52"/>
 <rect class="scan" x="181" y="27.5" width="70" height="2.5" rx="1.25" fill="url(#acc)"/>
-<text class="m" x="978" y="33" font-size="12" text-anchor="end" fill="#5F6D82">// what I do</text>
+<text class="m" x="978" y="33" font-size="12" text-anchor="end" fill="#5F6D82">// who I am</text>
 </svg>

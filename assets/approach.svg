@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="190" viewBox="0 0 1000 190" role="img" aria-labelledby="t d">
-<title id="t">How I work</title>
-<desc id="d">Start with the user problem, build deliberately, measure what matters, improve continuously.</desc>
+<title id="t">How I deliver</title>
+<desc id="d">Scope the real problem, prototype quickly, deploy for real users, measure and iterate.</desc>
 <defs>
   <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
     <stop offset="0" stop-color="#2DD4BF"/><stop offset="1" stop-color="#8B9CFF"/>
@@ -37,35 +37,35 @@ text{font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;}
 <circle cx="36" cy="38" r="15" fill="none" stroke="#2A3A52" stroke-width="1.8"/>
 <circle class="rg" style="animation-delay:0s" cx="36" cy="38" r="15" fill="none" stroke="url(#acc)" stroke-width="1.8"/>
 <text class="m" x="36" y="43" font-size="13" font-weight="700" text-anchor="middle" fill="#2DD4BF">01</text>
-<text x="20" y="80" font-size="16.5" font-weight="700" fill="#E8EEF8">Start with the user</text>
+<text x="20" y="80" font-size="16.5" font-weight="700" fill="#E8EEF8">Scope the real</text>
 <text x="20" y="100" font-size="16.5" font-weight="700" fill="#E8EEF8">problem</text>
-<text x="20" y="128" font-size="12.5" fill="#95A3B8">Clarify who it is for and</text>
-<text x="20" y="145" font-size="12.5" fill="#95A3B8">what “good” looks like before</text>
+<text x="20" y="128" font-size="12.5" fill="#95A3B8">Understand the user and what</text>
+<text x="20" y="145" font-size="12.5" fill="#95A3B8">“good” looks like before</text>
 <text x="20" y="162" font-size="12.5" fill="#95A3B8">writing code.</text>
 <g class="nudge" style="animation-delay:0.0s"><path d="M234.0 87.0 L244.0 95.0 L234.0 103.0" fill="none" stroke="#5F6D82" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
 <rect x="260.5" y="0.5" width="219" height="189" rx="16" fill="#0E1520" stroke="#1F2B3D"/>
 <circle cx="296" cy="38" r="15" fill="none" stroke="#2A3A52" stroke-width="1.8"/>
 <circle class="rg" style="animation-delay:2s" cx="296" cy="38" r="15" fill="none" stroke="url(#acc)" stroke-width="1.8"/>
 <text class="m" x="296" y="43" font-size="13" font-weight="700" text-anchor="middle" fill="#2DD4BF">02</text>
-<text x="280" y="80" font-size="16.5" font-weight="700" fill="#E8EEF8">Build deliberately</text>
-<text x="280" y="108" font-size="12.5" fill="#95A3B8">Clean APIs, typed contracts</text>
-<text x="280" y="125" font-size="12.5" fill="#95A3B8">and few moving parts.</text>
+<text x="280" y="80" font-size="16.5" font-weight="700" fill="#E8EEF8">Prototype quickly</text>
+<text x="280" y="108" font-size="12.5" fill="#95A3B8">Working RAG or agent demos</text>
+<text x="280" y="125" font-size="12.5" fill="#95A3B8">early, so feedback is real.</text>
 <g class="nudge" style="animation-delay:0.4s"><path d="M494.0 87.0 L504.0 95.0 L494.0 103.0" fill="none" stroke="#5F6D82" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
 <rect x="520.5" y="0.5" width="219" height="189" rx="16" fill="#0E1520" stroke="#1F2B3D"/>
 <circle cx="556" cy="38" r="15" fill="none" stroke="#2A3A52" stroke-width="1.8"/>
 <circle class="rg" style="animation-delay:4s" cx="556" cy="38" r="15" fill="none" stroke="url(#acc)" stroke-width="1.8"/>
 <text class="m" x="556" y="43" font-size="13" font-weight="700" text-anchor="middle" fill="#2DD4BF">03</text>
-<text x="540" y="80" font-size="16.5" font-weight="700" fill="#E8EEF8">Measure what</text>
-<text x="540" y="100" font-size="16.5" font-weight="700" fill="#E8EEF8">matters</text>
-<text x="540" y="128" font-size="12.5" fill="#95A3B8">Evaluate retrieval and answer</text>
-<text x="540" y="145" font-size="12.5" fill="#95A3B8">quality, not just demos.</text>
+<text x="540" y="80" font-size="16.5" font-weight="700" fill="#E8EEF8">Deploy for real</text>
+<text x="540" y="100" font-size="16.5" font-weight="700" fill="#E8EEF8">users</text>
+<text x="540" y="128" font-size="12.5" fill="#95A3B8">FastAPI/Flask services,</text>
+<text x="540" y="145" font-size="12.5" fill="#95A3B8">WebSockets and React UIs</text>
+<text x="540" y="162" font-size="12.5" fill="#95A3B8">people rely on.</text>
 <g class="nudge" style="animation-delay:0.8s"><path d="M754.0 87.0 L764.0 95.0 L754.0 103.0" fill="none" stroke="#5F6D82" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
 <rect x="780.5" y="0.5" width="219" height="189" rx="16" fill="#0E1520" stroke="#1F2B3D"/>
 <circle cx="816" cy="38" r="15" fill="none" stroke="#2A3A52" stroke-width="1.8"/>
 <circle class="rg" style="animation-delay:6s" cx="816" cy="38" r="15" fill="none" stroke="url(#acc)" stroke-width="1.8"/>
 <text class="m" x="816" y="43" font-size="13" font-weight="700" text-anchor="middle" fill="#2DD4BF">04</text>
-<text x="800" y="80" font-size="16.5" font-weight="700" fill="#E8EEF8">Improve</text>
-<text x="800" y="100" font-size="16.5" font-weight="700" fill="#E8EEF8">continuously</text>
-<text x="800" y="128" font-size="12.5" fill="#95A3B8">Iterate from real usage, logs</text>
-<text x="800" y="145" font-size="12.5" fill="#95A3B8">and feedback.</text>
+<text x="800" y="80" font-size="16.5" font-weight="700" fill="#E8EEF8">Measure and iterate</text>
+<text x="800" y="108" font-size="12.5" fill="#95A3B8">Track outcomes, like the ~60%</text>
+<text x="800" y="125" font-size="12.5" fill="#95A3B8">cut in manual queries.</text>
 </svg>

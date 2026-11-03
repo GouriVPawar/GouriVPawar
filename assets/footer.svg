@@ -32,8 +32,8 @@ text{font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;}
 
 </style>
 <rect x="0.5" y="0.5" width="999" height="67" rx="14" fill="#0E1520" stroke="#1F2B3D"/>
-<circle class="blink" cx="350.0" cy="29" r="3.5" fill="#2DD4BF"/>
+<circle class="blink" cx="360.0" cy="29" r="3.5" fill="#2DD4BF"/>
 <text x="500.0" y="34" font-size="16" text-anchor="middle" fill="#C5D0E0">Stay curious. Ship thoughtfully.</text>
-<circle class="blink" cx="650.0" cy="29" r="3.5" fill="#8B9CFF"/>
+<circle class="blink" cx="640.0" cy="29" r="3.5" fill="#8B9CFF"/>
 <text class="m" x="500.0" y="54" font-size="11" letter-spacing="3" text-anchor="middle" fill="#5F6D82">GOURI PAWAR</text>
 </svg>
