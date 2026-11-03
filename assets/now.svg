@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="228" viewBox="0 0 1000 228" role="img" aria-labelledby="t d">
+<title id="t">Currently exploring</title>
+<desc id="d">Currently exploring: production-grade LLM applications; agentic workflows and multi-agent orchestration; RAG evaluation: retrieval and answer quality; scalable backend systems.</desc>
+<defs>
+  <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#2DD4BF"/><stop offset="1" stop-color="#8B9CFF"/>
+  </linearGradient>
+  <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#2A3A52"/><stop offset="1" stop-color="#2A3A52" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="shg" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#2DD4BF" stop-opacity="0"/>
+    <stop offset="0.5" stop-color="#2DD4BF" stop-opacity="0.9"/>
+    <stop offset="1" stop-color="#8B9CFF" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+<style>
+text{font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;}
+.m{font-family:'SF Mono','JetBrains Mono',Consolas,Menlo,'Courier New',monospace;}
+
+.blink{animation:blink 2s ease-in-out infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.25}}
+.dash{stroke-dasharray:4 8;animation:dash 1.4s linear infinite}
+@keyframes dash{to{stroke-dashoffset:-12}}
+.tw{opacity:.1;animation:tw 5s ease-in-out infinite}
+@keyframes tw{0%,100%{opacity:.08}50%{opacity:.55}}
+.nudge{animation:nudge 2.4s ease-in-out infinite}
+@keyframes nudge{0%,100%{transform:translateX(0)}50%{transform:translateX(4px)}}
+.fb{transform-box:fill-box;transform-origin:center}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+
+.bl{animation:bl 3s ease-in-out infinite}
+@keyframes bl{0%,100%{opacity:.35}50%{opacity:1}}
+
+</style>
+<rect x="0.5" y="0.5" width="999" height="227" rx="16" fill="#0E1520" stroke="#1F2B3D"/>
+<line x1="1" y1="44" x2="999" y2="44" stroke="#1F2B3D"/>
+<circle cx="28" cy="22" r="5" fill="#2A3A52"/><circle cx="46" cy="22" r="5" fill="#2A3A52"/><circle cx="64" cy="22" r="5" fill="#2A3A52"/>
+<text class="m" x="500.0" y="27" font-size="12" letter-spacing="2" text-anchor="middle" fill="#5F6D82">~/now.sh</text>
+<text class="m" x="28" y="78" font-size="15" font-weight="700" fill="#2DD4BF">$</text>
+<text class="m" x="48" y="78" font-size="15" fill="#C5D0E0">now --exploring</text>
+<circle class="bl" style="animation-delay:0.0s" cx="38" cy="103" r="3.4" fill="#2DD4BF"/>
+<text class="m" x="56" y="108" font-size="15" fill="#C5D0E0">production-grade LLM applications</text>
+<circle class="bl" style="animation-delay:0.6s" cx="38" cy="129" r="3.4" fill="#2DD4BF"/>
+<text class="m" x="56" y="134" font-size="15" fill="#C5D0E0">agentic workflows and multi-agent orchestration</text>
+<circle class="bl" style="animation-delay:1.2s" cx="38" cy="155" r="3.4" fill="#2DD4BF"/>
+<text class="m" x="56" y="160" font-size="15" fill="#C5D0E0">RAG evaluation: retrieval and answer quality</text>
+<circle class="bl" style="animation-delay:1.7999999999999998s" cx="38" cy="181" r="3.4" fill="#2DD4BF"/>
+<text class="m" x="56" y="186" font-size="15" fill="#C5D0E0">scalable backend systems</text>
+<text class="m" x="28" y="216" font-size="15" font-weight="700" fill="#2DD4BF">$</text>
+<rect class="blink" x="48" y="203" width="9" height="18" rx="1.5" fill="#2DD4BF"/>
+</svg>

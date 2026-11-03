@@ -8,41 +8,64 @@
   <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
     <stop offset="0" stop-color="#2A3A52"/><stop offset="1" stop-color="#2A3A52" stop-opacity="0"/>
   </linearGradient>
+  <linearGradient id="shg" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#2DD4BF" stop-opacity="0"/>
+    <stop offset="0.5" stop-color="#2DD4BF" stop-opacity="0.9"/>
+    <stop offset="1" stop-color="#8B9CFF" stop-opacity="0"/>
+  </linearGradient>
 </defs>
 <style>
 text{font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;}
 .m{font-family:'SF Mono','JetBrains Mono',Consolas,Menlo,'Courier New',monospace;}
 
+.blink{animation:blink 2s ease-in-out infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.25}}
+.dash{stroke-dasharray:4 8;animation:dash 1.4s linear infinite}
+@keyframes dash{to{stroke-dashoffset:-12}}
+.tw{opacity:.1;animation:tw 5s ease-in-out infinite}
+@keyframes tw{0%,100%{opacity:.08}50%{opacity:.55}}
+.nudge{animation:nudge 2.4s ease-in-out infinite}
+@keyframes nudge{0%,100%{transform:translateX(0)}50%{transform:translateX(4px)}}
+.fb{transform-box:fill-box;transform-origin:center}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+
+.rg{opacity:.35;animation:rg 8s ease-in-out infinite}
+@keyframes rg{0%{opacity:.35}4%{opacity:1}22%{opacity:1}27%{opacity:.35}100%{opacity:.35}}
+
 </style>
 <rect x="0.5" y="0.5" width="219" height="189" rx="16" fill="#0E1520" stroke="#1F2B3D"/>
-<circle cx="36" cy="38" r="15" fill="none" stroke="url(#acc)" stroke-width="1.8"/>
+<circle cx="36" cy="38" r="15" fill="none" stroke="#2A3A52" stroke-width="1.8"/>
+<circle class="rg" style="animation-delay:0s" cx="36" cy="38" r="15" fill="none" stroke="url(#acc)" stroke-width="1.8"/>
 <text class="m" x="36" y="43" font-size="13" font-weight="700" text-anchor="middle" fill="#2DD4BF">01</text>
-<text x="20" y="78" font-size="16.5" font-weight="700" fill="#E8EEF8">Start with the user</text>
-<text x="20" y="98" font-size="16.5" font-weight="700" fill="#E8EEF8">problem</text>
-<text x="20" y="126" font-size="12.5" fill="#95A3B8">Clarify who it is for and</text>
-<text x="20" y="143" font-size="12.5" fill="#95A3B8">what “good” looks like before</text>
-<text x="20" y="160" font-size="12.5" fill="#95A3B8">writing code.</text>
-<path d="M234.0 87.0 L244.0 95.0 L234.0 103.0" fill="none" stroke="#5F6D82" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="20" y="80" font-size="16.5" font-weight="700" fill="#E8EEF8">Start with the user</text>
+<text x="20" y="100" font-size="16.5" font-weight="700" fill="#E8EEF8">problem</text>
+<text x="20" y="128" font-size="12.5" fill="#95A3B8">Clarify who it is for and</text>
+<text x="20" y="145" font-size="12.5" fill="#95A3B8">what “good” looks like before</text>
+<text x="20" y="162" font-size="12.5" fill="#95A3B8">writing code.</text>
+<g class="nudge" style="animation-delay:0.0s"><path d="M234.0 87.0 L244.0 95.0 L234.0 103.0" fill="none" stroke="#5F6D82" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
 <rect x="260.5" y="0.5" width="219" height="189" rx="16" fill="#0E1520" stroke="#1F2B3D"/>
-<circle cx="296" cy="38" r="15" fill="none" stroke="url(#acc)" stroke-width="1.8"/>
+<circle cx="296" cy="38" r="15" fill="none" stroke="#2A3A52" stroke-width="1.8"/>
+<circle class="rg" style="animation-delay:2s" cx="296" cy="38" r="15" fill="none" stroke="url(#acc)" stroke-width="1.8"/>
 <text class="m" x="296" y="43" font-size="13" font-weight="700" text-anchor="middle" fill="#2DD4BF">02</text>
-<text x="280" y="78" font-size="16.5" font-weight="700" fill="#E8EEF8">Build deliberately</text>
-<text x="280" y="106" font-size="12.5" fill="#95A3B8">Clean APIs, typed contracts</text>
-<text x="280" y="123" font-size="12.5" fill="#95A3B8">and few moving parts.</text>
-<path d="M494.0 87.0 L504.0 95.0 L494.0 103.0" fill="none" stroke="#5F6D82" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="280" y="80" font-size="16.5" font-weight="700" fill="#E8EEF8">Build deliberately</text>
+<text x="280" y="108" font-size="12.5" fill="#95A3B8">Clean APIs, typed contracts</text>
+<text x="280" y="125" font-size="12.5" fill="#95A3B8">and few moving parts.</text>
+<g class="nudge" style="animation-delay:0.4s"><path d="M494.0 87.0 L504.0 95.0 L494.0 103.0" fill="none" stroke="#5F6D82" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
 <rect x="520.5" y="0.5" width="219" height="189" rx="16" fill="#0E1520" stroke="#1F2B3D"/>
-<circle cx="556" cy="38" r="15" fill="none" stroke="url(#acc)" stroke-width="1.8"/>
+<circle cx="556" cy="38" r="15" fill="none" stroke="#2A3A52" stroke-width="1.8"/>
+<circle class="rg" style="animation-delay:4s" cx="556" cy="38" r="15" fill="none" stroke="url(#acc)" stroke-width="1.8"/>
 <text class="m" x="556" y="43" font-size="13" font-weight="700" text-anchor="middle" fill="#2DD4BF">03</text>
-<text x="540" y="78" font-size="16.5" font-weight="700" fill="#E8EEF8">Measure what</text>
-<text x="540" y="98" font-size="16.5" font-weight="700" fill="#E8EEF8">matters</text>
-<text x="540" y="126" font-size="12.5" fill="#95A3B8">Evaluate retrieval and answer</text>
-<text x="540" y="143" font-size="12.5" fill="#95A3B8">quality, not just demos.</text>
-<path d="M754.0 87.0 L764.0 95.0 L754.0 103.0" fill="none" stroke="#5F6D82" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="540" y="80" font-size="16.5" font-weight="700" fill="#E8EEF8">Measure what</text>
+<text x="540" y="100" font-size="16.5" font-weight="700" fill="#E8EEF8">matters</text>
+<text x="540" y="128" font-size="12.5" fill="#95A3B8">Evaluate retrieval and answer</text>
+<text x="540" y="145" font-size="12.5" fill="#95A3B8">quality, not just demos.</text>
+<g class="nudge" style="animation-delay:0.8s"><path d="M754.0 87.0 L764.0 95.0 L754.0 103.0" fill="none" stroke="#5F6D82" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
 <rect x="780.5" y="0.5" width="219" height="189" rx="16" fill="#0E1520" stroke="#1F2B3D"/>
-<circle cx="816" cy="38" r="15" fill="none" stroke="url(#acc)" stroke-width="1.8"/>
+<circle cx="816" cy="38" r="15" fill="none" stroke="#2A3A52" stroke-width="1.8"/>
+<circle class="rg" style="animation-delay:6s" cx="816" cy="38" r="15" fill="none" stroke="url(#acc)" stroke-width="1.8"/>
 <text class="m" x="816" y="43" font-size="13" font-weight="700" text-anchor="middle" fill="#2DD4BF">04</text>
-<text x="800" y="78" font-size="16.5" font-weight="700" fill="#E8EEF8">Improve</text>
-<text x="800" y="98" font-size="16.5" font-weight="700" fill="#E8EEF8">continuously</text>
-<text x="800" y="126" font-size="12.5" fill="#95A3B8">Iterate from real usage, logs</text>
-<text x="800" y="143" font-size="12.5" fill="#95A3B8">and feedback.</text>
+<text x="800" y="80" font-size="16.5" font-weight="700" fill="#E8EEF8">Improve</text>
+<text x="800" y="100" font-size="16.5" font-weight="700" fill="#E8EEF8">continuously</text>
+<text x="800" y="128" font-size="12.5" fill="#95A3B8">Iterate from real usage, logs</text>
+<text x="800" y="145" font-size="12.5" fill="#95A3B8">and feedback.</text>
 </svg>

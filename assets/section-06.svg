@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="56" viewBox="0 0 1000 56" role="img" aria-labelledby="t d">
-<title id="t">06 — Connect</title>
-<desc id="d">06 — Connect</desc>
+<title id="t">06 — Now</title>
+<desc id="d">06 — Now</desc>
 <defs>
   <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
     <stop offset="0" stop-color="#2DD4BF"/><stop offset="1" stop-color="#8B9CFF"/>
@@ -8,14 +8,36 @@
   <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
     <stop offset="0" stop-color="#2A3A52"/><stop offset="1" stop-color="#2A3A52" stop-opacity="0"/>
   </linearGradient>
+  <linearGradient id="shg" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#2DD4BF" stop-opacity="0"/>
+    <stop offset="0.5" stop-color="#2DD4BF" stop-opacity="0.9"/>
+    <stop offset="1" stop-color="#8B9CFF" stop-opacity="0"/>
+  </linearGradient>
 </defs>
 <style>
 text{font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;}
 .m{font-family:'SF Mono','JetBrains Mono',Consolas,Menlo,'Courier New',monospace;}
 
+.blink{animation:blink 2s ease-in-out infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.25}}
+.dash{stroke-dasharray:4 8;animation:dash 1.4s linear infinite}
+@keyframes dash{to{stroke-dashoffset:-12}}
+.tw{opacity:.1;animation:tw 5s ease-in-out infinite}
+@keyframes tw{0%,100%{opacity:.08}50%{opacity:.55}}
+.nudge{animation:nudge 2.4s ease-in-out infinite}
+@keyframes nudge{0%,100%{transform:translateX(0)}50%{transform:translateX(4px)}}
+.fb{transform-box:fill-box;transform-origin:center}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+
+.scan{animation:scan 5s ease-in-out infinite alternate}
+@keyframes scan{from{transform:translateX(0)}to{transform:translateX(607px)}}
+
 </style>
-<text class="m" x="2" y="35" font-size="15" font-weight="700" fill="#F5B84B">06</text>
-<text x="48" y="37" font-size="22" font-weight="700" fill="#E8EEF8">Connect</text>
-<rect x="154" y="28" width="646" height="1.5" fill="url(#fade)"/>
-<text class="m" x="998" y="33" font-size="12" text-anchor="end" fill="#5F6D82">// say hello</text>
+<rect x="0.5" y="0.5" width="999" height="55" rx="14" fill="#0E1520" stroke="#1F2B3D"/>
+<text class="m" x="24" y="34" font-size="14" font-weight="700" fill="#F5B84B">06</text>
+<rect x="50" y="20" width="1.5" height="16" fill="#2A3A52"/>
+<text x="62" y="36" font-size="20" font-weight="700" fill="#E8EEF8">Now</text>
+<rect x="120" y="28" width="677" height="1.5" rx="0.75" fill="#2A3A52"/>
+<rect class="scan" x="120" y="27.5" width="70" height="2.5" rx="1.25" fill="url(#acc)"/>
+<text class="m" x="978" y="33" font-size="12" text-anchor="end" fill="#5F6D82">// currently exploring</text>
 </svg>

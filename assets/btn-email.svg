@@ -8,10 +8,27 @@
   <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
     <stop offset="0" stop-color="#2A3A52"/><stop offset="1" stop-color="#2A3A52" stop-opacity="0"/>
   </linearGradient>
+  <linearGradient id="shg" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#2DD4BF" stop-opacity="0"/>
+    <stop offset="0.5" stop-color="#2DD4BF" stop-opacity="0.9"/>
+    <stop offset="1" stop-color="#8B9CFF" stop-opacity="0"/>
+  </linearGradient>
 </defs>
 <style>
 text{font-family:'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif;}
 .m{font-family:'SF Mono','JetBrains Mono',Consolas,Menlo,'Courier New',monospace;}
+
+.blink{animation:blink 2s ease-in-out infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.25}}
+.dash{stroke-dasharray:4 8;animation:dash 1.4s linear infinite}
+@keyframes dash{to{stroke-dashoffset:-12}}
+.tw{opacity:.1;animation:tw 5s ease-in-out infinite}
+@keyframes tw{0%,100%{opacity:.08}50%{opacity:.55}}
+.nudge{animation:nudge 2.4s ease-in-out infinite}
+@keyframes nudge{0%,100%{transform:translateX(0)}50%{transform:translateX(4px)}}
+.fb{transform-box:fill-box;transform-origin:center}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+
 
 </style>
 <rect x="0.5" y="0.5" width="239" height="59" rx="14" fill="#0E1520" stroke="#2A3A52"/>
